@@ -193,7 +193,7 @@ main{
     hr{
         display: block;
     }
-    .nav-first > .brand, .nav-links, .navbar > button{
+    .nav-first > .brand, .nav-links, .navbar > button, #slide-btn{
         display: none;
     }
     .navbar{
@@ -210,5 +210,8 @@ main{
     .banner-content{
         justify-content: center;
         text-align: center;
+    }
+    .card{
+        flex-direction: column;
     }
 }
