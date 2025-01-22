@@ -60,7 +60,7 @@ hr{
 .navbar{
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
+    margin: 0 auto;
 }
 .navbar > i{
     display: none;
@@ -275,7 +275,7 @@ main{
     hr, .navbar > i{
         display: block;
     }
-    .nav-first > .brand, .nav-links, .navbar > button, #slide-btn{
+    .nav-first > .brand, .nav-links, .navbar > button, #slide-btn, .story-1{
         display: none;
     }
     .navbar{
@@ -300,5 +300,9 @@ main{
         align-items: center;
         margin-left: 12px;
         margin-right: 12px;
+    }
+    .story-2{
+        grid-template-columns: repeat(2,1fr);
+        gap: 12px
     }
 }
