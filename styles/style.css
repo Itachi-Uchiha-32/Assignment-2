@@ -2,8 +2,9 @@
 body{
     font-family: Quicksand;
     background-color: #F7F7F7;
-    /* margin: 0; */
+    margin: 0;
     padding: 0;
+
 
 }
 /* Shared styles */
@@ -13,6 +14,7 @@ body{
 .navbar, .banner, .stories, .curriculum, .footer{
     max-width: 1160px;
     margin: 0 auto;
+    width: 90%
 }
 .white{
     color: white;
@@ -221,7 +223,8 @@ main{
 }
 .stories{
     text-align: center;
-    width: 100%;
+    /* width: 80%; */
+    background-color: #3CD8E8;
 }
 .story-title{
     text-align: center;
@@ -238,17 +241,19 @@ main{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 15px;
+    background-color: #666666;
 }
 .story-cardbox{
     background-color: white;
     border-radius: 16px;
+    width: 100%;
 }
 .story-cardbox > img{
     width: 100%;
     border-radius: 16px 16px 0 0;
 }
 .story-1 > .story-cardbox{
-    width: 540px;
+    width: 500px;
     height: auto;
 }
 .stories-btn{
@@ -366,7 +371,7 @@ footer{
     }
     .story-2{
         grid-template-columns: repeat(2,1fr);
-        gap: 12px
+        gap: 12px;
     }
     .stories{
         padding-left: 12px;
