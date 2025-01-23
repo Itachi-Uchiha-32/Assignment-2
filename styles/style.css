@@ -14,7 +14,7 @@ body{
 .navbar, .banner, .stories, .curriculum, .footer{
     max-width: 1160px;
     margin: 0 auto;
-    width: 90%
+    width: 90%;
 }
 .white{
     color: white;
@@ -223,8 +223,6 @@ main{
 }
 .stories{
     text-align: center;
-    /* width: 80%; */
-    background-color: #3CD8E8;
 }
 .story-title{
     text-align: center;
@@ -241,7 +239,6 @@ main{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 15px;
-    background-color: #666666;
 }
 .story-cardbox{
     background-color: white;
